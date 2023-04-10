@@ -1,4 +1,4 @@
-nome : Gerar Dados
+Nome : Gerar Dados
 
 em :
   cronograma : # executar a cada 12 horas
@@ -23,3 +23,4 @@ trabalhos :
           build_dir : dist
         ambiente :
           GITHUB_TOKEN : ${{ segredos.GITHUB_TOKEN }}
+  
